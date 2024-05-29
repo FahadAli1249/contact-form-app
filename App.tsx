@@ -1,23 +1,22 @@
+import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-
+import ContactForm from './src/components/ContactForm';
+import Colors from './src/constants/Colors';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>kuch bi</Text>
+    <View  style={styles.container}>
+      <ContactForm />
     </View>
   );
 };
 
+export default App;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingHorizontal: 20,
-    paddingTop: 50,
+
+    backgroundColor: Colors.dark.background1,
   },
 });
-
-export default App;

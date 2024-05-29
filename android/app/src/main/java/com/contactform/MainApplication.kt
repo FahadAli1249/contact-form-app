@@ -1,4 +1,4 @@
-package com.contact
+package com.contactform
 
 import android.app.Application
 import com.facebook.react.PackageList
